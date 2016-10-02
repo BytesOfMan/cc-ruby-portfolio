@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Welcome</title>
+  <title>Joey King, Full Stack Developer</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,500,700" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
@@ -16,18 +16,18 @@
 <div class="header">
   <div class="container">
     <div class="row">
-      <div class="col-md-3">
+      <div class="col-md-6">
         <h2>
-          Joey King
+          Joey King | Full Stack Dev
         </h2>
       </div>
-      <div class="col-md-9">
+      <div class="col-md-6">
         <ul class="nav nav-tabs pull-right">
-          <li><a href="/">Home</a></li>
-          <li><a href="portfolio">About</a></li>
-          <li><a href="link.html">Projects</a></li>
-          <li><a href="link.html">Blog</a></li>
-          <li><a href="link.html">Hire Me</a></li>
+          <li><%= link_to 'Home', root_path %></li>
+          <li><%= link_to 'Projects', portfolio_path %></li>
+          <li><%= link_to 'Blog', "https://medium.com/@BTC_Houston" %></li>
+          <li><%= link_to 'About', about_path %></li>
+          <li><%= link_to 'Contact', contact_path %></li>
         </ul>
       </div>
     </div>
@@ -48,13 +48,14 @@
       <li>
         <a href="https://github.com/josephroyking"><img src="http://i.imgur.com/WXM7WX0.png"></a>
       </li>
-      <li>
-        <a href="link.html"><img src="http://i.imgur.com/zcSF89h.png"></a>
-      </li>
+     
     </ul>
   </div>
 </div>
-<div>Icons made by <a href="http://www.flaticon.com/authors/simpleicon" title="SimpleIcon">SimpleIcon</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+<div align="right">
+  <font size="1">
+  Icons made by <a href="http://www.flaticon.com/authors/simpleicon" title="SimpleIcon">SimpleIcon</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+    </font></div>
 
 </body>
   
