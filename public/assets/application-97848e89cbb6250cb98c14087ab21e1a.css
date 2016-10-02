@@ -1,0 +1,62 @@
+/* line 5, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.main {
+  height: 600px;
+  background-image: url(http://i.imgur.com/JTlFiLV.jpg);
+  background-size: cover;
+}
+
+/* line 11, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+#aboutimg {
+  position: relative;
+  width: 350px;
+  max-height: 100%;
+  margin: 75px 0 0 0;
+  border: 3px solid grey;
+  border-radius: 10px;
+}
+
+/* line 20, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+#aboutp {
+  position: relative;
+  margin: 75px 0 0 0;
+  background-color: white;
+  border: 3px solid grey;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* line 31, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.nav {
+  font-size: 25px;
+}
+
+/* line 35, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.notfugly {
+  margin: 75px 0 0 0;
+  background-color: white;
+  border-radius: 10px;
+}
+
+/* line 43, /home/ccuser/workspace/learn-rails_portfolio/portfolio/app/assets/stylesheets/pages.css.scss */
+.notfugly td {
+  padding: 10px;
+  font-size: 75px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
