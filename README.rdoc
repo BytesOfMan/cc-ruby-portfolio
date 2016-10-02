@@ -1,5 +1,24 @@
 == README
 
+First portfolio website. Built in CodeCademy web interface with Ruby on Rails (command line + text editor).
+
+Deployed to heroku.
+
+Ran into a css issue following Codecademy instructions but worked it out.
+
+To deploy to heroku:
+* run rake assets:precompile
+* git add .
+* git commit -m "What did you change"
+* git push heroku master
+* (enter username and password)
+
+To push to github
+* git push -u origin mater
+* (enter username and password)
+
+
+*** Comments below here were Codecademy defaults
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
